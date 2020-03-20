@@ -24,7 +24,7 @@
           <input class="search-row" name="search" placeholder="Поиск:" type="search"/>
         </form>
         <ul class="list-markers">
-          <li><a href="#">
+          <li class="book-mark"><a href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
               <path fill="#ffffff"
                     d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
@@ -46,13 +46,13 @@
     <div>
       <p class="main-description">Интернет-магазин
         строительных материалов
-        и инструментов для ремонта</p>
+        и&nbspинструментов для ремонта</p>
     </div>
-    <div>
+    <div class="tel-wrap">
       <a class="tel" href="tel:+78125550555">+7&nbsp(812)&nbsp555-05-55</a>
-      <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная,д. 19/8</p>
+      <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная,&nbspд. 19/8</p>
     </div>
-    <div>
+    <div class="button-wrap">
       <a href="#" class="button-logout">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
           <path
@@ -60,20 +60,24 @@
         </svg>
         Равшан Джамшутович
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
-          <path d="M14.875 8.5L6 0v6H0v5h6v6z"/>
-          <path
-            d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/>
-        </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+            <g fill="#c5c5c5">
+              <path d="M21 8.5L12.125 0v6h-6v5h6v6z"/>
+              <path
+                    d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0 1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z"/>
+            </g>
+          </svg>
+
       </a>
       <div class="personal-link">
         <a href="#">Мои заказы</a>
         <span class="bullet"></span>
-        <a href="#">Личный кабинет</a>
+        <a class="personal-cabinet" href="#">Личный кабинет</a>
       </div>
     </div>
   </div>
   <nav class="main-nav container">
-    <a href="#">Главная</a>
+    <a href="index.html">Главная</a>
     <a href="#">Компания</a>
     <a href="page/catalog.html">Каталог</a>
     <a href="#">Новости</a>
@@ -87,14 +91,14 @@
   <h2 class="visually-hidden">Навигация-"Хлебные крошки"</h2>
   <section class="container">
     <ul class="bread">
-      <li><a href="catalog.html"><img src="../img/icon_img/icon-home.svg"></a></li>
-      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="index.html"><img src="../img/icon_img/icon-home.svg"></a></li>
+      <li><a href="page/catalog.html">Каталог</a></li>
       <li><a href="#">Инструмент</a></li>
       <li><a href="#">Перфораторы</a></li>
     </ul>
   </section>
-  <div  class="rotary-hammers container">
-  <h2>Перфораторы</h2>
+  <div class="rotary-hammers container">
+    <h2>Перфораторы</h2>
   </div>
   <div class="container catalog">
     <section>
@@ -135,7 +139,7 @@
                 <path
                   d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/>
               </svg>
-              Bosh
+              Bosch
             </label>
           </div>
           <div>
@@ -235,17 +239,17 @@
       <h2 class="visually-hidden">Товары</h2>
       <ul class="sort">
         <li>Сортировка:</li>
-        <li><a href="#">По цене</a></li>
-        <li><a href="#">По типу</a></li>
-        <li><a href="#">По функционалу</a></li>
-        <li class="sort-svg">
+        <li class="sort-price"><a href="#">По цене</a></li>
+        <li class="type"><a href="#">По типу</a></li>
+        <li class="function"><a href="#">По функционалу</a></li>
+        <li class="sort-svg-height">
           <p class="visually-hidden">Сортировка по возрастанию</p>
           <a href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
               <path d="M5.5 0L0 10h11z"/>
             </svg>
           </a></li>
-        <li class="sort-svg">
+        <li class="sort-svg-less">
           <p class="visually-hidden">Сортировка по убыванию</p>
           <a href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
@@ -488,7 +492,7 @@
           </ul>
         </div>
         <div class="top-footer">
-          <p>г. Санкт-Петербург, ул. Б. Конюшенная,д. 19/8
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная,&nbspд.&nbsp19/8
             <a href="tel:+78125550555">+7&nbsp(812)&nbsp555-05-55</a></p>
           <div>
             <ul class="bottom-links">

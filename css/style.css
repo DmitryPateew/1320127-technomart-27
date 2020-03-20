@@ -36,13 +36,13 @@ a {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 21px;
 }
 
 .main-nav a {
   display: block;
   text-align: center;
-  padding-top: 22px;
+  padding-top: 21px;
   font-size: 17px;
   color: #ffffff;
 }
@@ -54,6 +54,7 @@ a {
 .header {
   background-color: #f4f7f9;
   min-height: 273px;
+  padding-bottom: 10px;
 }
 
 .header > div:first-of-type {
@@ -133,8 +134,6 @@ a {
 .service h3 {
   font-size: 36px;
   font-weight: normal;
-  position: relative;
-  left: 300px;
 }
 
 .service p {
@@ -162,16 +161,29 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 46px;
-  padding-bottom: 15px;
+  padding-top: 50px;
+  padding-bottom: 27px;
 }
+
 
 .main-description {
   color: #ee3643;
   font-style: italic;
+  font-size: 16px;
   width: 183px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 52px;
+  line-height: 1.44;
+  margin-right: 50px;
+}
+
+.tel-wrap {
+  padding-top: 7px;
+}
+
+.button-wrap {
+  padding-top: 7px;
 }
 
 .tel {
@@ -181,16 +193,18 @@ a {
   border: solid 3px #ffffff;
   background-image: url("../img/icon_img/icon-phone.svg");
   background-repeat: no-repeat;
-  background-position: 15px;
-  padding-left: 74px;
-  padding-right: 52px;
-  padding-top: 8px;
-  padding-bottom: 6px;
+  background-position: 10px;
+  padding-left: 68px;
+  padding-right: 50px;
+  padding-top: 6px;
+  padding-bottom: 8px;
 }
 
 .address {
   color: #32425c;
   font-size: 14px;
+  padding-top: 4px;
+  padding-left: 7px;
 }
 
 
@@ -531,6 +545,10 @@ a {
   background-color: #518534;
 }
 
+.list-markers .book-mark {
+  padding-right: 27px;
+}
+
 .popular-item-hover .book-mark {
   width: 129px;
   border: solid 3px #63a63e;
@@ -552,8 +570,9 @@ a {
   font-style: normal;
   color: black;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 9px;
+  margin-top: 0;
+  padding-top: 2px;
+  margin-bottom: 10px;
 }
 
 
@@ -566,6 +585,8 @@ a {
   text-decoration: line-through;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .popular-button {
@@ -579,18 +600,20 @@ a {
   padding-top: 9px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .no-sale {
-  margin-bottom: 53px;
   font-family: "PTSans", "Arial Narrow", sans-serif;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
   color: black;
   text-align: center;
-  padding-top: 10px;
   padding-bottom: 9px;
+  margin-bottom: 32px;
+  margin-top: 0;
 }
 
 .manufacturers {
@@ -710,11 +733,15 @@ a {
 .top-footer {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 18px;
+  font-size: 18px;
 }
 
 .top-footer > p {
-  width: 322px;
-  padding-left: 0;
+  width: 326px;
+  padding-left: 2px;
+  margin-top: 0;
+  padding-top: 18px;
 }
 
 .top-footer p > a {
@@ -726,6 +753,9 @@ a {
 
 .top-footer > img {
   margin-right: 50px;
+  height: 47px;
+  padding-top: 8px;
+  padding-bottom: 6px;
 }
 
 
@@ -734,7 +764,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 550px;
-  padding-left: 130px;
+  padding-left: 119px;
+  padding-top: 22px;
 }
 
 .top-links a:hover {
@@ -778,7 +809,7 @@ a {
 }
 
 .bottom-footer {
-  padding-top: 30px;
+  padding-top: 21px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -790,9 +821,10 @@ a {
   max-width: 300px;
 }
 
-.feedback div{
-  max-width: 200px;
+.feedback div {
+  max-width: 190px;
 }
+
 .connection {
   color: #ffd180;
 }
@@ -810,7 +842,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 100px;
+  padding-left: 87px;
+  padding-top: 1px;
 }
 
 .bottom-links > li a {
@@ -825,11 +858,12 @@ a {
   background-color: #293449;
 }
 
+
 .search-row {
   background-color: #293449;
   border: none;
   padding-top: 14px;
-  padding-left: 30px;
+  padding-left: 40px;
   padding-bottom: 13px;
   color: #ffffff;
 }
@@ -837,9 +871,16 @@ a {
 .form-search svg {
   position: absolute;
   top: 20px;
-  margin-right: 8px;
   opacity: 0.3;
   fill: #ffffff;
+  padding-left: 7px;
+}
+
+.search-row::placeholder {
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
+  font-size: 17px;
+  opacity: 1;
+  color: #ffffff;
 }
 
 .search-row:hover {
@@ -863,13 +904,15 @@ a {
   align-items: flex-start;
   list-style-type: none;
   font-size: 17px;
+
 }
 
 .list-markers li {
-  padding-top: 12px;
-  padding-bottom: 9px;
+  padding-top: 10px;
+  padding-bottom: 12px;
   padding-left: 20px;
   padding-right: 22px;
+  margin-bottom: 0;
 }
 
 .list-markers li:hover {
@@ -994,21 +1037,25 @@ a {
 
 .bread {
   display: flex;
-  width: 320px;
   justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 0;
+  margin-bottom: 19px;
+  padding-right: 562px;
 }
 
 .bread a {
   color: #000000;
   font-family: "PTSans", "Arial Narrow", sans-serif;
   font-size: 13px;
+  text-transform: uppercase;
 }
 
 .bread li {
   background-image: url("../img/icon_img/icon-right-small.svg");
   background-repeat: no-repeat;
   background-position: right;
-  padding-right: 15px;
+  padding-right: 20px;
 }
 
 .bread li:last-child {
@@ -1017,15 +1064,21 @@ a {
 
 .rotary-hammers {
   background-color: #f2f6f8;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .rotary-hammers > h2 {
+  margin-top: 0;
   font-size: 30px;
   color: #32425c;
   font-weight: normal;
-  padding-top: 32px;
-  padding-bottom: 34px;
-  padding-left: 30px;
+  padding-left: 28px;
+  text-transform: uppercase;
+  line-height: 1;
+  padding-bottom: 0;
+  padding-top: 6px;
 }
 
 .filter {
@@ -1036,25 +1089,37 @@ a {
 
 .filter h3 {
   background-color: #f7f3ec;
-  padding-top: 14px;
-  padding-bottom: 15px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 22px;
   font-size: 13px;
   font-weight: normal;
   text-transform: uppercase;
-  padding-left: 18px;
   line-height: 1.38;
   border-radius: 5px;
   font-family: "PTSans", "Arial Narrow", sans-serif;
+  margin-bottom: 10px;
 }
 
 .filter-manufacturers {
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  padding-left: 0;
+}
+
+.filter-manufacturers legend {
+  text-transform: uppercase;
+  padding-left: 0;
+  font-weight: bold;
 }
 
 .filter fieldset {
   border: none;
+  font-family: "PTSans", "Arial Narrow", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  border-bottom: #f7f3ec 1px solid;
+  text-transform: uppercase;
 }
 
 .catalog {
@@ -1063,20 +1128,36 @@ a {
 
 .sort {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-family: "PTSans", "Arial Narrow", sans-serif;
   font-size: 13px;
   font-weight: normal;
   text-transform: uppercase;
   background-color: #f7f3ec;
-  padding-top: 15px;
-  padding-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 13px;
   border-radius: 5px;
   list-style-type: none;
+  margin-bottom: 20px;
 }
 
 .sort:nth-child(2) {
   color: #000000;
+  padding-left: 19px;
+}
+
+.sort-price {
+  padding-left: 140px;
+}
+
+.type {
+  padding-left: 78px;
+  margin-right: 43px;
+}
+
+.function {
+  padding-left: 33px;
+  margin-right: 55px;
 }
 
 .sort a {
@@ -1097,6 +1178,15 @@ a {
 .sort svg {
   fill: #c5c5c5;
 }
+
+.sort-svg-height {
+  padding-right: 20px;
+}
+
+.sort-svg-less {
+  padding-right: 17px;
+}
+
 
 .sort svg:hover {
   fill: #231F20;
@@ -1141,21 +1231,15 @@ a {
 
 .filter-manufacturers svg {
   width: 27px;
-  margin-bottom: 17px;
-  margin-right: 10px;
-  padding-right: 3px;
-  position: relative;
-  left: 0;
-  top: 25px;
+  margin-right: 2px;
 }
 
 .filter-manufacturers svg:hover {
   fill: #b5b5b5;
 }
 
-.filter-manufacturers label {
-  padding-left: 0;
-  margin-left: 0;
+.filter-manufacturers > div {
+  margin-top: 12px;
 }
 
 .radio-off {
@@ -1198,9 +1282,9 @@ a {
 .goods article {
   border: solid 1px #eaeaea;
   width: 218px;
-  min-height: 318px;
   margin-right: 20px;
   margin-bottom: 20px;
+  padding-bottom: 11px;
 }
 
 .flag-new {
@@ -1267,21 +1351,23 @@ a {
 
 .about-hammer-drill {
   background-color: #f4f7f9;
-  padding-top: 27px;
-  padding-bottom: 73px;
+  padding-bottom: 55px;
   color: #000000;
-  line-height: 1.85;
 }
 
 .about-hammer-drill h2 {
   font-size: 30px;
   font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 65px;
 }
 
 .about-hammer-drill p {
   font-size: 13px;
   font-family: "PTSans", "Arial Narrow", sans-serif;
   font-weight: normal;
+  line-height: 1.85;
+
 }
 
 .show {
@@ -1307,13 +1393,15 @@ a {
   outline-color: #ee3643;
 }
 
-.active-box {
+.list-markers .active-box {
   background-color: #ee3643;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .personal-link {
-  margin-top: 20px;
-  padding-left: 4px;
+  margin-top: 17px;
+  padding-left: 11px;
 }
 
 .personal-link a {
@@ -1322,8 +1410,12 @@ a {
   font-weight: normal;
   line-height: 1.13;
   color: #32425c;
-  padding-right: 15px;
-  padding-left: 13px;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.personal-link .personal-cabinet {
+  padding-left: 9px;
 }
 
 .personal-link a:hover {
@@ -1339,18 +1431,21 @@ a {
   font-size: 21px;
   color: #000000;
   background-color: #ffffff;
-  padding-top: 14px;
-  padding-bottom: 11px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .button-logout svg:first-of-type {
-  padding-left: 13px;
-  padding-right: 13px;
+  padding-left: 12px;
+  padding-right: 8px;
 }
 
 .button-logout svg:last-of-type {
-  padding-left: 39px;
-  padding-right: 10px;
+  padding-left: 33px;
+  padding-right: 9px;
+  padding-top: 1px;
 }
 
 .button-logout svg {
@@ -1580,25 +1675,30 @@ a {
   font-weight: bold;
   font-stretch: normal;
   line-height: 1.76;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  padding-left: 2px;
+
 }
 
 .range-filter {
   width: 220px;
+  padding-bottom: 12px;
 }
 
 .filter-item {
   margin: 0;
   padding: 0;
   border: none;
+  margin-bottom: 21px;
+  border-bottom: #f7f3ec 1px solid;
 }
 
 
 .range-controls {
   position: relative;
   height: 41px;
-  margin-bottom: 15px;
-  padding-top: 39px;
+  padding-top: 37px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: #f7f3ec;
@@ -1618,7 +1718,7 @@ a {
 
 .range-controls .toggle {
   position: absolute;
-  top: 31px;
+  top: 28px;
   left: 0;
   width: 4px;
   height: 4px;
@@ -1640,6 +1740,8 @@ a {
 
 .price-controls {
   font-size: 0;
+  padding-top: 3px;
+  padding-bottom: 8px;
 }
 
 .price-controls label {
@@ -1649,15 +1751,16 @@ a {
 }
 
 .price-controls input {
-  width: 95px;
+  width: 75px;
   font-size: 17px;
   text-align: center;
   color: #000000;
-  padding-top: 12px;
-  padding-bottom: 14px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   background: #f7f3ec;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 20px;
 }
 
 .max-price {
