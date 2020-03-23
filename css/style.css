@@ -613,7 +613,7 @@ a {
   text-align: center;
   margin-top: 0;
   padding-top: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -628,7 +628,7 @@ a {
   text-decoration: line-through;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   margin-top: 0;
 }
 
@@ -640,7 +640,7 @@ a {
   color: #ffffff;
   font-size: 17px;
   text-align: center;
-  padding-top: 9px;
+  padding-top: 8px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
@@ -729,6 +729,7 @@ a {
   font-size: 13px;
   font-weight: normal;
   line-height: 1.85;
+  letter-spacing: 0.9px;
 }
 
 .about-delivery {
@@ -748,11 +749,16 @@ a {
   font-weight: normal;
   margin-bottom: 20px;
   list-style-type: none;
+}
 
+.top-footer .main-logo{
+  width: 135px;
+  padding-left: 43px;
+  padding-right: 42px;
 }
 
 .delivery {
-  width: 386px;
+  width: 406px;
   margin-bottom: 0;
   padding-bottom: 2px;
 }
@@ -934,7 +940,6 @@ a {
   border: none;
   padding-top: 14px;
   padding-left: 40px;
-  padding-bottom: 13px;
   color: #ffffff;
 }
 
@@ -1075,18 +1080,16 @@ a {
 }
 
 .social-networks {
-  padding-top: 10px;
+  padding-top: 12px;
   padding-left: 100px;
-
 }
 
 .social-networks a {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  line-height: 42px;
-  width: 42px;
-  margin-right: 3px;
+  line-height: 41px;
+  width: 40px;
   background-color: #212a3a;
   border-radius: 50%;
   font-size: 32px;
@@ -1479,6 +1482,7 @@ a {
   font-family: "PTSans", "Arial Narrow", sans-serif;
   font-weight: normal;
   line-height: 1.85;
+  letter-spacing: 0.8px;
 }
 
 .show {
