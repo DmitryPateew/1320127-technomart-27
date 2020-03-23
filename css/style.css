@@ -938,8 +938,9 @@ a {
 .search-row {
   background-color: #293449;
   border: none;
-  padding-top: 14px;
+  padding-top: 12px;
   padding-left: 40px;
+  padding-right: 33px;
   color: #ffffff;
 }
 
